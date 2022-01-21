@@ -1,0 +1,205 @@
+@media only screen and (max-width: 992px) {
+  /* menubar responsive css styles */
+  #menu_toggler {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  /* banner responsive css styles */
+  .content_area h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  #banner {
+    background-position: left bottom;
+    background-size: 100%;
+  }
+  /* feature responsive css styles */
+  #feature {
+    background-image: none;
+  }
+  /* jackpot responsive css styles */
+  .jackpot_title {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+  .jackpot_heading {
+    margin: auto;
+  }
+  .jackpot_border {
+    width: 200px;
+    height: 2px;
+    margin: auto;
+  }
+  .jackpot_paragraph {
+    margin: auto;
+  }
+  .jackpot_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* banner responsive css styles */
+  #banner {
+    margin: 50px 0;
+  }
+  .inner_banner {
+    flex-direction: column;
+  }
+  .banner_area {
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .content_area {
+    order: 2;
+    width: 100%;
+    padding: 0 15px;
+  }
+  /* client responsive css styles */
+  .inner_client {
+    flex-wrap: wrap;
+  }
+  /* awesome responsive css styles */
+  .awesome_grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+  /* feature responsive css styles */
+  #feature {
+    background-image: none;
+  }
+  .feature_box_container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+  }
+  .feature_box {
+    text-align: center;
+  }
+  /* jackpot responsive css styles */
+  .jackpot_title {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+  .jackpot_border {
+    width: 200px;
+    height: 2px;
+    margin: auto;
+  }
+  .jackpot_paragraph {
+    margin: auto;
+  }
+  .jackpot_heading {
+    margin: auto;
+  }
+  .jackpot_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-img {
+    margin: auto;
+  }
+  .single_jackpot {
+    text-align: center;
+  }
+  /* design responsive css styles */
+  .design_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* our app responsive css styles */
+  .app_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* price responsive css style */
+  .pricing_card {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  /* banner responsive css styles */
+  .content_area h6 {
+    max-width: 362px;
+    margin-bottom: 25px;
+  }
+  .content_area h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .hero_btn_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* client responsive css styles */
+  .inner_client {
+    flex-wrap: wrap;
+  }
+  .inner_client img {
+    margin: 20px 0;
+  }
+  /* awesome responsive css styles */
+  .awesome_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* feature responsive css styles */
+  #feature {
+    background-image: none;
+  }
+  .feature_box_container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+  }
+  .feature_box {
+    text-align: center;
+  }
+
+  /* jackpot responsive css styles */
+  .jackpot_title {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+  .jackpot_heading {
+    margin: auto;
+  }
+  .jackpot_border {
+    width: 200px;
+    height: 2px;
+    margin: auto;
+  }
+  .jackpot_paragraph {
+    margin: auto;
+  }
+  .jackpot_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-img img {
+    margin: auto;
+  }
+  .single_jackpot {
+    text-align: center;
+  }
+  /* design responsive css styles */
+  .design_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* our app responsive css styles */
+  .app_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* price responsive css style */
+  .pricing_card {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+}
